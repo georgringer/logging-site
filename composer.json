@@ -1,0 +1,31 @@
+{
+  "name": "georgringer/site_logging",
+  "version": "1.0.0",
+  "description": "Logging Exmaple",
+  "config": {
+    "vendor-dir": "Packages/Libraries",
+    "bin-dir": "bin"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://composer.typo3.org/"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/helhum/typo3_console.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/georgringer/logging.git"
+    }
+  ],
+  "require": {
+    "typo3/cms": "7.0.*",
+    "georgringer/logging": "dev-master",
+    "monolog/monolog": "1.*",
+    "graylog2/gelf-php": "~1.0"
+  },
+  "scripts": {
+  }
+}

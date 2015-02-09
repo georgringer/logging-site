@@ -1,0 +1,15 @@
+.idea/
+fileadmin/
+Packages/
+typo3
+typo3_src
+
+typo3conf/ext/logging/
+typo3conf/ext/l10n/
+typo3conf/ENABLE_INSTALL_TOOL
+
+uploads/
+typo3temp/
+
+composer.lock
+index.php
